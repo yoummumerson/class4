@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                position:relative;
+                padding:20px
+            }
+            #a{
+                width:100px;
+                height:100px;
+                background-color:burlywood;
+                border:3px solid chocolate;
+                z-index:1;
+            }
+             #b{
+                width:100px;
+                height:100px;
+                background-color:burlywood;
+                border:3px solid chocolate;
+                z-index:2;
+                top:-25px;
+                left:75px;
+            }
+            #c{
+                width:100px;
+                height:100px;
+                background-color:rgb(0, 230, 73);
+                border:3px solid rgb(0, 200, 255);
+                z-index:3;
+                top:-50px
+                
+                
+            }
+            #d{
+                width:100px;
+                height:100px;
+                background-color:rgb(6, 82, 65);
+                border:3px solid chocolate;
+                z-index:4;
+                top:-75px;
+                left:50px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+        <h1>Z-index</h1>
+        <div id="a">
+          index 1
+        </div>
+
+        <div id="b">
+          index 2
+        </div>
+
+        <div id="c">
+          index 3
+        </div>
+
+        <div id="d">
+          index 4
+        </div>
+        
+        </center>
+    </body>
+</html>
